@@ -11,6 +11,20 @@ module.exports = {
       sans: 'Gantari, sans-serif',
       body: 'Open Sans',
     },
+
+    fontWeight: {
+      hairline: 100,
+      'extra-light': 100,
+      thin: 200,
+      light: 300,
+      normal: 400,
+      medium: 500,
+      semibold: 600,
+      bold: 700,
+      extrabold: 800,
+      'extra-bold': 800,
+      black: 900,
+    },
     screens: {
       sm: '640px',
       md: '768px',
@@ -24,9 +38,13 @@ module.exports = {
           light: '#596386',
           dark: '#031330',
         },
+        background: {
+          light: '#fafafa',
+          dark: '#031330',
+        },
 
         accent: {
-          DEFAULT: '#CF9455',
+          DEFAULT: '#E900FF',
           hover: '#BB864E',
         },
 
@@ -36,10 +54,6 @@ module.exports = {
       spacing: {
         54: '54px',
         800: '800px',
-      },
-
-      content: {
-        quote: 'url("assets/img/quoteMark.png")',
       },
     },
   },
