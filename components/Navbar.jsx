@@ -60,7 +60,7 @@ const Navbar = () => {
             <ul
               className={`${
                 isOpen ? 'right-0' : '-right-1/3'
-              } nav fixed bg-bg-brand h-screen z-10 top-16 sm:w-1/6 w-1/3  flex flex-col justify-center items-center border-l-[1px] border-slate-200 dark:border-accent mt-2`}>
+              } bezier fixed bg-background-light dark:bg-background-dark   h-screen z-10 top-16 sm:w-1/6 w-1/3  flex flex-col justify-center items-center border-l-[1px] border-slate-200 dark:border-accent mt-2`}>
               {menus.map((menu) => {
                 return (
                   <li

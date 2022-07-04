@@ -6,34 +6,34 @@ function BannerGraphic(props) {
       <defs>
         <style>
           {
-            '.prefix__cls-1{fill:#031330}.prefix__cls-2{fill:#eddfee}.prefix__cls-3{fill:#e5ebee}.prefix__cls-4{fill:#e5f4fa}'
+            '.prefix__banner-1{fill:{fill}}.prefix__banner-2{fill:#eddfee}.prefix__banner-3{fill:#e5ebee}.prefix__banner-4{fill:#e5f4fa}'
           }
         </style>
       </defs>
-      <g id="prefix__Layer_1-2">
+      <g id="prefix__Layer_1-2 ">
         <g id="prefix__Artwork_10">
           <path
-            className="prefix__cls-2"
+            className="prefix__banner-2"
             d="M255.2 205.13h-45.44l-4-4v-45.44l4-4h45.44l4 4v45.44l-4 4z"
           />
           <path
-            className="prefix__cls-4"
+            className="prefix__banner-4"
             d="M290.53 205.13h-18.72c0-2.21-1.79-4-4-4v-45.44c2.21 0 4-1.79 4-4h18.72c0 2.21 1.79 4 4 4v45.44c-2.21 0-4 1.79-4 4zM290.89 142.38h-81.52l-4-4V75.12l4-4h81.52l4 4v63.26l-4 4z"
           />
           <path
-            className="prefix__cls-2"
+            className="prefix__banner-2"
             d="M174.59 169.5h-63.26c0-2.21-1.79-4-4-4v-54.35c2.21 0 4-1.79 4-4h63.26c0 2.21 1.79 4 4 4v54.35c-2.21 0-4 1.79-4 4z"
           />
           <path
-            className="prefix__cls-4"
+            className="prefix__banner-4"
             d="M174.17 97.84H31.19l-4-4V30.58l4-4h142.98l4 4v63.26l-4 4z"
           />
           <path
-            className="prefix__cls-3"
+            className="prefix__banner-3"
             d="M291 35.83h-84l-1-1V24.61l1-1h84l1 1v10.22l-1 1z"
           />
           <rect
-            className="prefix__cls-3"
+            className="prefix__banner-3"
             x={206.2}
             y={220.74}
             width={88.18}
@@ -42,7 +42,7 @@ function BannerGraphic(props) {
             ry={2}
           />
           <rect
-            className="prefix__cls-3"
+            className="prefix__banner-3"
             x={206.2}
             y={238.56}
             width={88.18}
@@ -51,7 +51,7 @@ function BannerGraphic(props) {
             ry={2}
           />
           <rect
-            className="prefix__cls-3"
+            className="prefix__banner-3"
             x={206.2}
             y={256.37}
             width={88.18}
@@ -60,7 +60,7 @@ function BannerGraphic(props) {
             ry={2}
           />
           <path
-            className="prefix__cls-3"
+            className="prefix__banner-3"
             d="M97.91 133.45h-69.7l-1-1v-8.24l1-1h69.7l1 1v8.24l-1 1zM97.91 116.97h-69.7l-1-1v-8.24l1-1h69.7l1 1v8.24l-1 1zM97.91 151.71h-69.7l-1-1v-8.24l1-1h69.7l1 1v8.24l-1 1zM97.91 169.53h-69.7l-1-1v-8.24l1-1h69.7l1 1v8.24l-1 1z"
           />
           <path
@@ -68,7 +68,7 @@ function BannerGraphic(props) {
             fill="#2e3959"
           />
           <path
-            className="prefix__cls-1"
+            className="prefix__banner-1"
             d="M307.53 13.65v34.09c-3.5-2.73-7.84-4.24-12.43-4.24h-86.69c-11.16 0-20.23 9.08-20.23 20.23V178H14.47V13.65h293.06m2-2H12.47V180h177.7V63.73c0-10.07 8.16-18.23 18.23-18.23h86.69c5.89 0 11.11 2.76 14.43 7.07V11.65z"
           />
           <path
@@ -76,11 +76,11 @@ function BannerGraphic(props) {
             fill="#171140"
           />
           <path
-            className="prefix__cls-1"
+            className="prefix__banner-1"
             d="M7.48 4.04c.18.02.36.04.54.04h305.97c2.21 0 4.01 1.8 4.01 4.01v179.49h-.91V63.72c0-4.98-1.6-9.68-4.63-13.59-4.24-5.49-10.66-8.63-17.62-8.63h-86.88c-12.26 0-22.23 9.97-22.23 22.23v123.85H4V8.01a4.063 4.063 0 01.79-2.41c.27-.36.59-.67.96-.92.26-.18.54-.32.84-.43.08-.03.16-.05.23-.08.05-.02.1-.03.12-.03.1-.03.2-.05.29-.07.04 0 .09-.02.13-.02h.11M8.01 0c-.31 0-.62.02-.92.05-.1.01-.2.03-.3.04-.1.02-.2.03-.3.05-.2.04-.39.08-.58.13-.1.03-.19.05-.29.08-.13.04-.25.08-.37.13-.62.22-1.19.52-1.73.88-.75.5-1.4 1.13-1.94 1.85-.16.2-.3.42-.43.64A7.93 7.93 0 00-.01 8.01v183.57h189.74V63.73c0-10.07 8.16-18.23 18.23-18.23h86.88c5.9 0 11.13 2.77 14.46 7.08 2.38 3.08 3.79 6.94 3.79 11.14v127.86H322V8.08c0-4.42-3.59-8.01-8.01-8.01H8.02V0z"
           />
           <path
-            className="prefix__cls-1"
+            className="prefix__banner-1"
             d="M291.52 54.63c7.35 0 13.34 6.59 13.34 14.68v201.35c0 8.09-5.98 14.68-13.34 14.68h-79.78c-7.35 0-13.34-6.59-13.34-14.68V69.31c0-8.09 5.98-14.68 13.34-14.68h7.6v1.83c0 4.39 3.58 7.97 7.97 7.97h48.63c4.39 0 7.97-3.58 7.97-7.97v-1.83h7.6m0-2h-8.01c-.81 0-1.5.61-1.59 1.4v2.42c0 3.3-2.67 5.97-5.97 5.97h-48.63c-3.3 0-5.97-2.67-5.97-5.97v-2.33c-.04-.78-.65-1.41-1.43-1.49h-8.17c-8.5 0-15.34 7.44-15.34 16.68v201.35c0 9.24 6.84 16.68 15.34 16.68h79.78c8.5 0 15.34-7.44 15.34-16.68V69.31c0-9.24-6.84-16.68-15.34-16.68z"
           />
         </g>

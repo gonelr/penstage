@@ -15,7 +15,7 @@ const ThemeMode = () => {
   return (
     <button
       onClick={handleClick}
-      className="hover:rotate-180 transition-fill duration-500 active:-rotate-90 ">
+      className="hover:rotate-180 bezier active:-rotate-90 ">
       {theme === 'light' ? (
         <MemoLight className="w-10 " />
       ) : (
