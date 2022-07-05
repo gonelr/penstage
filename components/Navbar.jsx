@@ -41,14 +41,14 @@ const Navbar = () => {
     <nav
       className={`${
         bg &&
-        ' bg-background-light dark:bg-background-dark  shadow-md dark:shadow-sm dark:shadow-[#E900FF]'
+        ' bg-background-light/90 dark:bg-background-dark/90  shadow-md dark:shadow-sm dark:shadow-[#E900FF]'
       } top-0 sticky py-4 z-30 transition duration-500`}>
       <div className="flex justify-between max-w-[1200px] mx-auto items-center px-6">
         {/* logo */}
         <div>
           <Link href="/">
             <a className="dark:fill-slate-100">
-              <MemoLogo className="h-[40px] active:fill-accent " />
+              <MemoLogo className="h-8 sm:h-[40px] active:fill-accent " />
             </a>
           </Link>
         </div>
@@ -60,7 +60,7 @@ const Navbar = () => {
             <ul
               className={`${
                 isOpen ? 'right-0' : '-right-1/3'
-              } bezier fixed bg-background-light dark:bg-background-dark   h-screen z-10 top-16 sm:w-1/6 w-1/3  flex flex-col justify-center items-center border-l-[1px] border-slate-200 dark:border-accent mt-2`}>
+              } bezier fixed bg-background-light/90 dark:bg-background-dark/90 h-screen z-10 top-16 sm:w-1/6 w-1/3  flex flex-col justify-center items-center border-l-[1px] border-slate-200 dark:border-accent translate-y-2`}>
               {menus.map((menu) => {
                 return (
                   <li
@@ -74,7 +74,7 @@ const Navbar = () => {
               })}
             </ul>
           </div>
-          <div className="flex items-start justify-center active:fill-accent">
+          <div className="flex items-start justify-center active:fill-accent shrink-0">
             <ThemeMode />
           </div>
         </div>
