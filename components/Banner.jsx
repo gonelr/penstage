@@ -10,7 +10,7 @@ const Banner = () => {
           </h1p>
           <p className="text-xl mt-4 font-light tracking-wider">
             We are a team of UX/graphic designers and developers. We create
-            brand small for businesses and startups.
+            brand for small businesses and startups.
           </p>
         </div>
         <div className="w-[270px] xs:min-w-[500px] md:min-w-[600px] mx-auto lg:pl-6 md:px-24 ">

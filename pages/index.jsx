@@ -1,7 +1,8 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Banner from '../components/Banner'
-import Card from '../components/Card'
+import Head from "next/head";
+import Image from "next/image";
+import Banner from "../components/Banner";
+import Card from "../components/Card";
+import Idea from "/public/idea.jpg";
 
 export default function Home() {
   return (
@@ -19,6 +20,12 @@ export default function Home() {
         </div>
       </div>
       <Card />
+      <div className="mx-auto text-center text-4xl uppercase my-8 font-bold">
+        make your business <span className="text-yellow-500">stand out</span>
+      </div>
+      <div>
+        <Image src={Idea} alt="idea" objectFit="contain" />
+      </div>
     </div>
-  )
+  );
 }
